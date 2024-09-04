@@ -10,3 +10,17 @@ export function fizzBuzz(n) {
   if (n % 5 === 0) return 'Buzz';
   return n.toString();
 }
+
+export function calculateAvg(arr) {
+  if ( arr.length === 0) return NaN;
+
+  const sum = arr.reduce((sum, current) => sum + current, 0)
+  return sum / arr.length;
+}
+
+export function factorial(num) {
+  if ( num === 0 ) return 0;
+  if ( num === 1 ) return 1;
+
+  
+}
