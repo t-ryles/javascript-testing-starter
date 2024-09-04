@@ -69,8 +69,8 @@ describe('calculateAvg', () => {
 
 // TDD Factorial
 describe('factorial', () => {
-  it('Should return 0 if given the number 0', () => {
-    expect(factorial(0)).toBe(0);
+  it('Should return 1 if given the number 0', () => {
+    expect(factorial(0)).toBe(1);
   })
 
   it('Should return 1 if given the number 1', () => {
